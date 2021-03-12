@@ -1,5 +1,5 @@
 # CreditCardFraudDetection
-Goals:
+## Goals:
 <ol>
 <li>Understand the little distribution of the "little" data that was provided to us.</li>
 <li>Create a 50/50 sub-dataframe ratio of "Fraud" and "Non-Fraud" transactions. (NearMiss Algorithm)</li>
