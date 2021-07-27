@@ -34,7 +34,7 @@ Scaling: Keep in mind that in order to implement a PCA transformation features n
 Here is the screenshot of the output of model.summary().
 
 <p align="center">
-<img src="./images/normss.PNG" alt="Summary of VGG Model Building" style="width:300px;height:300px;" />
+<img src="./images/normss.png" alt="Summary of VGG Model Building" style="width:300px;height:300px;" />
 </p>
 
 ###  training
