@@ -39,7 +39,7 @@ Here is the screenshot of the output of model.summary().
 
 ###  training
 <p align="center">
-<img src="./images/Capture444.png" alt="Summary of VGG Model Building" style="width:300px;height:300px;" />
+<img src="./images/Capture444.png" alt="Summary of VGG Model Building" />
 </p>
 
 ## test
