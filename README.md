@@ -19,5 +19,43 @@ Feature Technicalities:
 PCA Transformation: The description of the data says that all the features went through a PCA transformation (Dimensionality Reduction technique) (Except for time and amount).
 Scaling: Keep in mind that in order to implement a PCA transformation features need to be previously scaled. (In this case, all the V features have been scaled or at least that is what we are assuming the people that develop the dataset did.)
 
+* Question: Unbalanced?
+
+<img src="./images/trans.png" alt="The first 36 images" style="width:300px;height:300px;" />
+
+## Data Description
+
+
+## data...
+
+
+### model
+
+Here is the screenshot of the output of model.summary().
+
+<p align="center">
+<img src="./images/normss.PNG" alt="Summary of VGG Model Building" style="width:300px;height:300px;" />
+</p>
+
+###  training
+<p align="center">
+<img src="./images/Capture444.png" alt="Summary of VGG Model Building" style="width:300px;height:300px;" />
+</p>
+
+## test
+ 
+###  training epochs
+
+<p align="center">
+<img src="./images/Capture555.png" alt="Summary of ResNet Model Building" style="width:300px;height:300px;" />
+</p>
+
+The training/validation loss and accuracy versus training epochs are shown below. After 200 epochs, the test accuracy is around 0.90840. But looking carefully, after epoch 75, the training loss is still dropping while testing loss do not get any better since then. So the model seems to overfit.
+
+<p align="center">
+<img src="./images/Capturerpoc.png" alt="Summary of ResNet Model Building" style="width:300px;height:300px;" />
+</p>
+
+
 
 
