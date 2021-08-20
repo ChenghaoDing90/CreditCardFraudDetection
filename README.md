@@ -1,14 +1,5 @@
 # CreditCardFraudDetection
-## Goals:
-<ol>
-<li>Understand the little distribution of the "little" data that was provided to us.</li>
-<li>Create a 50/50 sub-dataframe ratio of "Fraud" and "Non-Fraud" transactions. (NearMiss Algorithm)</li>
-<li>Determine the Classifiers we are going to use and decide which one has a higher accuracy.</li>
-<li>Create a Neural Network and compare the accuracy to our best classifier.</li>
-<li>Understand common mistaked made with imbalanced datasets.</li>
-</ol>
-
-* Question: Identify the fraudulent credit card transactions from a huge imbalanced data?
+## Question: Identify the fraudulent credit card transactions from a huge imbalanced data?
 
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. Online shopping is on the rise as more of us stay at home and let our credit cards do the walking. Keeping pace with that trend is an unfortunate increase in credit card fraud. It’s no surprise that online fraud has been a growing problem for the past few years. And now, as consumers and businesses adapt to the worldwide pandemic and make more credit card transactions in the card-not-present (CNP) space, the resulting uptick in online shopping and ecommerce has opened up an even bigger playground for fraudsters to try out new tricks. 
 
