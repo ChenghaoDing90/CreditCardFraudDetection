@@ -35,7 +35,7 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/trans.png" width="1200" height="300">
+  <img src="/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -46,7 +46,7 @@ On one hand, this figure shows that almost all of transaction records are non-fr
 Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, random under sampling technique is used to create a more balanced dataset and thus avoiding our models to overfitting. In more details, a 50/50 ratio subset is created with 492 cases of fraud and 492 cases of non-fraud transactions.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/afterEqualRatio.png" width="500" height="300">
+  <img src="/images/afterEqualRatio.png" width="500" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -55,13 +55,13 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
 It is important to know if there is any feature have very clear positive or negative correlations with our classification.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationNegative.png" width="1000" height="200">
+  <img src="/images/featureCorrelationNegative.png" width="1000" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationPostive.png" width="1000" height="200">
+  <img src="/images/featureCorrelationPostive.png" width="1000" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -73,13 +73,13 @@ However, we also find that some of the features like V10 has a lot of outliers o
 #### 4. Anomaly Detection
 To remove "extreme outliers" from features that have a high correlation with our classes, interquartile Range Method (IQR) is used.
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ-mod-Norm.png" width="800" height="200">
+  <img src="/images/IRQ-mod-Norm.png" width="800" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ_good.png" width="800" height="200">
+  <img src="/images/IRQ_good.png" width="800" height="200">
   <div class="figcaption"><br> 
   </div>
 </div>
@@ -89,7 +89,7 @@ From the plot, V10, V12, V14 outliers are reduced significantly. This will allev
 #### 5. Dimensionality Reduction and Clustering
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/dimen_reduce.png" width="1200" height="200">
+  <img src="/images/dimen_reduce.png" width="1200" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -98,19 +98,19 @@ The t-SNE is compared with another two different clustering methods, i.e. PCA an
 
 ### Classifiers and Model Training
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/ROCfitresult.png" width="1200" height="300">
+  <img src="/images/ROCfitresult.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/actual_cm.png" width="1200" height="300">
+  <img src="/images/actual_cm.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/actual_cmNeural.png" width="1200" height="300">
+  <img src="/images/actual_cmNeural.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
   
@@ -119,7 +119,7 @@ The t-SNE is compared with another two different clustering methods, i.e. PCA an
 
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/confuse.png" width="1200" height="300">
+  <img src="/images/confuse.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -129,13 +129,13 @@ The t-SNE is compared with another two different clustering methods, i.e. PCA an
 
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/fitresult.png" width="1200" height="300">
+  <img src="/images/fitresult.png" width="1200" height="300">
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
 </div>
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/overSamp.png" width="1200" height="300">
+  <img src="/images/overSamp.png" width="1200" height="300">
   <div class="figcaption"><br> 
   </div>
 </div>
@@ -143,7 +143,7 @@ The t-SNE is compared with another two different clustering methods, i.e. PCA an
 
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/undersample_cm.png" width="1200" height="300">
+  <img src="/images/undersample_cm.png" width="1200" height="300">
   <div class="figcaption"><br> 
   </div>
 </div>
