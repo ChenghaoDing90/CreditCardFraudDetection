@@ -99,13 +99,13 @@ For the training dataset, Logistic regression gets the highest accuracy score of
   </div>
 </div>
 
-This figure shows the ROC score of four different classifiers we used. Logistic regression is the best of 0.9792.
+This figure shows the ROC score of four different classifiers we used. Logistic regression is the best accuracy score of 0.9792.
 <div class="fig figcenter fighighlight">
   <img src="/images/ROCfitresult.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
-However, the under sampling average precision recall score is only 0.03. This means that
 </div>
+
 We find that under sampling Average Precision-Recall Score is 0.03. This means that the logistic can do a very good job in classification, but we do not necessarily did very well in identifying fraud transactions (positive class) even if we get a high score.
 </div><div class="fig figcenter fighighlight">
   <img src="/images/undersample_cm.png" width="1200" height="300">
@@ -113,6 +113,7 @@ We find that under sampling Average Precision-Recall Score is 0.03. This means t
   </div>
 </div>
 
+However, the under sampling average precision recall score is only 0.03. This means that
 <div class="fig figcenter fighighlight">
   <img src="/images/actual_cm.png" width="1200" height="300">
   <div class="figcaption"><br>
