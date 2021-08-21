@@ -109,7 +109,7 @@ This figure shows the ROC score of four different classifiers we used. Logistic 
 However, we find that under sampling Average Precision-Recall Score is 0.03. This means that the logistic can do a very good job in classification, but we do not necessarily did very well in identifying fraud transactions (positive class) even if we get a high score.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/images/undersample.png" width="1200" height="300">
+  <img src="/images/underSample.png" width="1200" height="300">
   <div class="figcaption"><br> 
   </div>
 </div>
