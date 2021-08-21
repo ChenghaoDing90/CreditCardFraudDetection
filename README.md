@@ -128,7 +128,14 @@ From this figure, we find that the over sampling method indeed gets a much highe
   </div>
 </div>
 
+</div><div class="fig figcenter fighighlight">
+  <img src="/images/confuse.png" width="1200" height="300">
+  <div class="figcaption"><br>
+  </div>
+</div>
+
 Here, there are four confusion matrix. The top left one is logistic Regression fitted using SMOTE technique. The other three are other models fitted with under sampling method. Still, logistic regression is the best.
+
 
 <div class="fig figcenter fighighlight">
   <img src="/images/actual_cm.png" width="1200" height="300">
@@ -145,11 +152,7 @@ Here, there are four confusion matrix. The top left one is logistic Regression f
 
 
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/images/confuse.png" width="1200" height="300">
-  <div class="figcaption"><br>
-  </div>
-</div>
+
 
 
 
