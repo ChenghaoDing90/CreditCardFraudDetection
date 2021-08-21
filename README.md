@@ -87,10 +87,29 @@ From the plot, V10, V12, V14 outliers are reduced significantly. This will allev
 
 The t-SNE is compared with another two different clustering methods, i.e. PCA and Truncated SVD. We find that t-SNE can do a very good job in identifying the non-fraud versus fraud.
 
-### Classifiers and Model Training
+### Classifiers (UnderSampling & OverSampling) and Model Training
+In order to find a best classifier to identify fraud credit card detections. Four classifiers such as Logistic Regression, K-Nearset Neighbors, Support Vector, and Decision Tree are used.<br />
+To avoid data leakage problem, under sample has to be implemented during cross validating. Otherwise, it is very likely that the trained model will be overfitted. This will prevent the test data being polluted from outside information of training data.<br />
+Therefore, Near-Miss algorithm is used during cross validation to see how it distributes the labels if we don't use these variables.<br />
+For the training dataset, Logistic regression gets the highest accuracy score of 95.4%, and decision tree is the worst. Then, the trained model has been applied to validation data, and apparently the validation score keeps growing. This suggests that an overfitting issue is resolved.<br />
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/images/fitresult.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+This figure shows the ROC score of four different classifiers we used. Logistic regression is the best of 0.9792.
 <div class="fig figcenter fighighlight">
   <img src="/images/ROCfitresult.png" width="1200" height="300">
   <div class="figcaption"><br>
+  </div>
+However, the under sampling average precision recall score is only 0.03. This means that
+</div>
+We find that under sampling Average Precision-Recall Score is 0.03. This means that the logistic can do a very good job in classification, but we do not necessarily did very well in identifying fraud transactions (positive class) even if we get a high score.
+</div><div class="fig figcenter fighighlight">
+  <img src="/images/undersample_cm.png" width="1200" height="300">
+  <div class="figcaption"><br> 
   </div>
 </div>
 
@@ -119,11 +138,7 @@ The t-SNE is compared with another two different clustering methods, i.e. PCA an
 
 
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/images/fitresult.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
+
 
 </div><div class="fig figcenter fighighlight">
   <img src="/images/overSamp.png" width="1200" height="300">
@@ -133,8 +148,4 @@ The t-SNE is compared with another two different clustering methods, i.e. PCA an
 
 
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/images/undersample_cm.png" width="1200" height="300">
-  <div class="figcaption"><br> 
-  </div>
-</div>
+
