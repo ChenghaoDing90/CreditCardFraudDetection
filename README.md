@@ -132,7 +132,7 @@ Here, there are four confusion matrix. The top left one is logistic Regression f
 
 ### Neural Networks Testing Random UnderSampling Data vs OverSampling (SMOTE)
 
-Finally, a simple one hidden layer of Neural Network is used to check which of the two logistic regressions models we implemented in the (undersample or oversample(SMOTE)) has a better accuracy for detecting fraud and non-fraud transactions.< br/>
+Finally, a simple one hidden layer of Neural Network is used to check which of the two logistic regressions models we implemented in the (undersample or oversample(SMOTE)) has a better accuracy for detecting fraud and non-fraud transactions.<br />
 Below is the confusion matrix of a new neural network that are trained with under sampling method tested on original dataset.
 <div class="fig figcenter fighighlight">
   <img src="/images/actual_cm.png" width="1200" height="300">
