@@ -123,12 +123,6 @@ Next step, I am going to try the Over-Sampling method as known as SMOTE techniqu
 From this figure, we find that the over sampling method indeed gets a much higher average precision recall score of 0.74 on the original test set, although it takes longer to train model because we are not removing any majority class information while instead add more minority class to balance the data.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/images/undersample_cm.png" width="1200" height="300">
-  <div class="figcaption"><br> 
-  </div>
-</div>
-
-</div><div class="fig figcenter fighighlight">
   <img src="/images/confuse.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
@@ -136,6 +130,7 @@ From this figure, we find that the over sampling method indeed gets a much highe
 
 Here, there are four confusion matrix. The top left one is logistic Regression fitted using SMOTE technique. The other three are other models fitted with under sampling method. Still, logistic regression is the best.
 
+### Neural Networks Testing Random UnderSampling Data vs OverSampling (SMOTE)
 
 <div class="fig figcenter fighighlight">
   <img src="/images/actual_cm.png" width="1200" height="300">
