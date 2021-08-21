@@ -99,7 +99,7 @@ For the training dataset, Logistic regression gets the highest accuracy score of
   </div>
 </div>
 
-This figure shows the ROC score of four different classifiers we used. Logistic regression is the best accuracy score of 0.9792.
+This figure shows the ROC score of four different classifiers we used. Among the four classifiers, logistic regression has the best accuracy score of 0.9792.
 <div class="fig figcenter fighighlight">
   <img src="/images/ROCfitresult.png" width="1200" height="300">
   <div class="figcaption"><br>
